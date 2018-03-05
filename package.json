@@ -1,0 +1,26 @@
+{
+  "name": "jointTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "path": {
+    "assetsDir": "./assets/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katuragiyasuraka/jointTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katuragiyasuraka/jointTask/issues"
+  },
+  "homepage": "https://github.com/katuragiyasuraka/jointTask#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
