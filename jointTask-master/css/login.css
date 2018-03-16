@@ -1,0 +1,65 @@
+html{
+  height: 100%;
+}
+body {
+  background: linear-gradient(90deg, rgba(255, 50, 100, 0.4), rgba(50, 255, 100, 0.4)), url("../images/bgr1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header,footer{
+  width: 100%;
+}
+.headerContents {
+  width:  20%;
+  margin: 20px;
+  color: white;
+  font-size: 50px;
+}
+div#loginForm {
+  width: 30%;
+  margin: 10% auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(180, 0, 180);
+  border: 1px dotted red;
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  display: none;
+}
+
+input[type=text] {
+  border-radius: 8px;
+}
+
+input[type=submit] {
+  width: color: white;
+  background-color: rgba(0, 0, 100, 0.3);
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type=submit]:active {
+  color: white;
+  background-color: rgb(50, 50, 50);
+}
+a#forgetPas {
+  text-decoration: none;
+}
+
+a#forgetPas:hover {
+  opacity: 0.8;
+}
+footer{
+  width: 100%;
+  position: relative;
+}
+.footerContents {
+  position: absolute;
+  right: 20px;
+  top: 120px;
+  color: white;
+}
